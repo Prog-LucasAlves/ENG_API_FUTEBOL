@@ -10,6 +10,7 @@ python = "^3.11"
 requests = "^2.31.0"
 psycopg2 = "^2.9.9"
 python-dotenv = "^1.0.1"
+taskipy = "^1.12.2"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -19,3 +20,6 @@ pre-commit = "^3.6.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+lint = "pre-commit run --all-files"
