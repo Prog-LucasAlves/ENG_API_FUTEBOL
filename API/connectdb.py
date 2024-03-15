@@ -3,7 +3,7 @@ import os
 import dotenv
 import psycopg2
 
-PATH = '../Docker/.env'
+PATH = "../Docker/.env"
 
 # Carrega as variáveis de ambiente do projeto
 dotenv.load_dotenv(dotenv_path=PATH, verbose=True)
