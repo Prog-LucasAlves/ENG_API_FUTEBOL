@@ -32,7 +32,7 @@ def Collectdata():
     data = Conectapi()
     for game in data:
         print(game['match_id'])
-        match_id = game['match_id']    
+        match_id = game['match_id']
 
         queryInsert = f"INSERT INTO infomatches VALUES ( \
             '{match_id}')"
