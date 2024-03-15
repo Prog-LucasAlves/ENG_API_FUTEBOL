@@ -175,4 +175,7 @@ poetry.lock
 # LSP config files
 pyrightconfig.json
 
+# folder
+database
+
 # End of https://www.toptal.com/developers/gitignore/api/python
